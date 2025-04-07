@@ -18,9 +18,8 @@ Es gibt verschiedene Wege, um eine Karriere im SAP-Bereich zu starten:
 - **Studium der Informatik oder Wirtschaftsinformatik:** Bietet eine breite Basis für den Einstieg in SAP-Entwicklung und -Beratung.
 
 ## Folie 4: Mein Wochenablauf als SAP-Praktikant
-- **Montag:** 
+- **Montag:** Einführung in die SAP Und Die Arbeit Arbeitplat kennen Lernen und eingerichtet    
 - **Dienstag:** 
 - **Mittwoch:** 
 - **Donnerstag:** 
-- **Freitag:**
-
+- **Freitag** 
