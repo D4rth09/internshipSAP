@@ -40,8 +40,34 @@
             </ol>
         </li>
     </ul>
+</head>
+<body>
+    <h1>Upload Your Photo</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <label for="photo">Choose a photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" onchange="previewPhoto(event)">
+        <button type="submit">Upload</button>
+    </form>
 
-    <img src="photo.jpg" width="100px" height="100px" onload="alert('Task complete')">
+    <h2>Photo Preview:</h2>
+    <img id="photoPreview" src="" alt="Your photo will appear here" style="max-width: 300px; display: none;">
+
+    <script>
+        function previewPhoto(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const preview = document.getElementById('photoPreview');
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+    </script>
+</body>
+</html>
 
     <p id="mytext">Davor</p>
     <script>
